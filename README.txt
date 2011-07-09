@@ -6,4 +6,4 @@ The Sample code demonstrates the following things:
 	•	In the Sample, tap "Change Pattern" to switch to next pattern
 	•	Use the slider, to increase the size of pattern cell
 
-A Detailed explanation of the Sample project can be found here
+A Detailed explanation of the Sample project can be found here http://t.co/ESEU1OK

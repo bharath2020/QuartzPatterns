@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		989EC6C913C31C9400B3DD13 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 989EC6C813C31C9400B3DD13 /* UIKit.framework */; };
+		989EC6CB13C31C9400B3DD13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 989EC6CA13C31C9400B3DD13 /* Foundation.framework */; };
+		989EC6CD13C31C9400B3DD13 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 989EC6CC13C31C9400B3DD13 /* CoreGraphics.framework */; };
+		989EC6D313C31C9400B3DD13 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 989EC6D113C31C9400B3DD13 /* InfoPlist.strings */; };
+		989EC6D613C31C9400B3DD13 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 989EC6D513C31C9400B3DD13 /* main.m */; };
+		989EC6D913C31C9400B3DD13 /* QuartzPatternsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 989EC6D813C31C9400B3DD13 /* QuartzPatternsAppDelegate.m */; };
+		989EC6DC13C31C9400B3DD13 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 989EC6DA13C31C9400B3DD13 /* MainWindow.xib */; };
+		989EC6DF13C31C9400B3DD13 /* QuartzPatternsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 989EC6DE13C31C9400B3DD13 /* QuartzPatternsViewController.m */; };
+		989EC6E213C31C9400B3DD13 /* QuartzPatternsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 989EC6E013C31C9400B3DD13 /* QuartzPatternsViewController.xib */; };
+		989EC6EA13C31CBA00B3DD13 /* BBQuartzView.m in Sources */ = {isa = PBXBuildFile; fileRef = 989EC6E913C31CBA00B3DD13 /* BBQuartzView.m */; };
+		989EC6EC13C31D0300B3DD13 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 989EC6EB13C31D0300B3DD13 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		989EC6C413C31C9400B3DD13 /* QuartzPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuartzPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		989EC6C813C31C9400B3DD13 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		989EC6CA13C31C9400B3DD13 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		989EC6CC13C31C9400B3DD13 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		989EC6D013C31C9400B3DD13 /* QuartzPatterns-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QuartzPatterns-Info.plist"; sourceTree = "<group>"; };
+		989EC6D213C31C9400B3DD13 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		989EC6D413C31C9400B3DD13 /* QuartzPatterns-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QuartzPatterns-Prefix.pch"; sourceTree = "<group>"; };
+		989EC6D513C31C9400B3DD13 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		989EC6D713C31C9400B3DD13 /* QuartzPatternsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuartzPatternsAppDelegate.h; sourceTree = "<group>"; };
+		989EC6D813C31C9400B3DD13 /* QuartzPatternsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuartzPatternsAppDelegate.m; sourceTree = "<group>"; };
+		989EC6DB13C31C9400B3DD13 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		989EC6DD13C31C9400B3DD13 /* QuartzPatternsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuartzPatternsViewController.h; sourceTree = "<group>"; };
+		989EC6DE13C31C9400B3DD13 /* QuartzPatternsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuartzPatternsViewController.m; sourceTree = "<group>"; };
+		989EC6E113C31C9400B3DD13 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/QuartzPatternsViewController.xib; sourceTree = "<group>"; };
+		989EC6E813C31CBA00B3DD13 /* BBQuartzView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBQuartzView.h; sourceTree = "<group>"; };
+		989EC6E913C31CBA00B3DD13 /* BBQuartzView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBQuartzView.m; sourceTree = "<group>"; };
+		989EC6EB13C31D0300B3DD13 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		989EC6C113C31C9400B3DD13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				989EC6C913C31C9400B3DD13 /* UIKit.framework in Frameworks */,
+				989EC6CB13C31C9400B3DD13 /* Foundation.framework in Frameworks */,
+				989EC6CD13C31C9400B3DD13 /* CoreGraphics.framework in Frameworks */,
+				989EC6EC13C31D0300B3DD13 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		989EC6B913C31C9300B3DD13 = {
+			isa = PBXGroup;
+			children = (
+				989EC6CE13C31C9400B3DD13 /* QuartzPatterns */,
+				989EC6C713C31C9400B3DD13 /* Frameworks */,
+				989EC6C513C31C9400B3DD13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		989EC6C513C31C9400B3DD13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				989EC6C413C31C9400B3DD13 /* QuartzPatterns.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		989EC6C713C31C9400B3DD13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				989EC6EB13C31D0300B3DD13 /* QuartzCore.framework */,
+				989EC6C813C31C9400B3DD13 /* UIKit.framework */,
+				989EC6CA13C31C9400B3DD13 /* Foundation.framework */,
+				989EC6CC13C31C9400B3DD13 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		989EC6CE13C31C9400B3DD13 /* QuartzPatterns */ = {
+			isa = PBXGroup;
+			children = (
+				989EC6D713C31C9400B3DD13 /* QuartzPatternsAppDelegate.h */,
+				989EC6D813C31C9400B3DD13 /* QuartzPatternsAppDelegate.m */,
+				989EC6DA13C31C9400B3DD13 /* MainWindow.xib */,
+				989EC6DD13C31C9400B3DD13 /* QuartzPatternsViewController.h */,
+				989EC6DE13C31C9400B3DD13 /* QuartzPatternsViewController.m */,
+				989EC6E013C31C9400B3DD13 /* QuartzPatternsViewController.xib */,
+				989EC6CF13C31C9400B3DD13 /* Supporting Files */,
+				989EC6E813C31CBA00B3DD13 /* BBQuartzView.h */,
+				989EC6E913C31CBA00B3DD13 /* BBQuartzView.m */,
+			);
+			path = QuartzPatterns;
+			sourceTree = "<group>";
+		};
+		989EC6CF13C31C9400B3DD13 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				989EC6D013C31C9400B3DD13 /* QuartzPatterns-Info.plist */,
+				989EC6D113C31C9400B3DD13 /* InfoPlist.strings */,
+				989EC6D413C31C9400B3DD13 /* QuartzPatterns-Prefix.pch */,
+				989EC6D513C31C9400B3DD13 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		989EC6C313C31C9400B3DD13 /* QuartzPatterns */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 989EC6E513C31C9400B3DD13 /* Build configuration list for PBXNativeTarget "QuartzPatterns" */;
+			buildPhases = (
+				989EC6C013C31C9400B3DD13 /* Sources */,
+				989EC6C113C31C9400B3DD13 /* Frameworks */,
+				989EC6C213C31C9400B3DD13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuartzPatterns;
+			productName = QuartzPatterns;
+			productReference = 989EC6C413C31C9400B3DD13 /* QuartzPatterns.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		989EC6BB13C31C9300B3DD13 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 989EC6BE13C31C9300B3DD13 /* Build configuration list for PBXProject "QuartzPatterns" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 989EC6B913C31C9300B3DD13;
+			productRefGroup = 989EC6C513C31C9400B3DD13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				989EC6C313C31C9400B3DD13 /* QuartzPatterns */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		989EC6C213C31C9400B3DD13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				989EC6D313C31C9400B3DD13 /* InfoPlist.strings in Resources */,
+				989EC6DC13C31C9400B3DD13 /* MainWindow.xib in Resources */,
+				989EC6E213C31C9400B3DD13 /* QuartzPatternsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		989EC6C013C31C9400B3DD13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				989EC6D613C31C9400B3DD13 /* main.m in Sources */,
+				989EC6D913C31C9400B3DD13 /* QuartzPatternsAppDelegate.m in Sources */,
+				989EC6DF13C31C9400B3DD13 /* QuartzPatternsViewController.m in Sources */,
+				989EC6EA13C31CBA00B3DD13 /* BBQuartzView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		989EC6D113C31C9400B3DD13 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				989EC6D213C31C9400B3DD13 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		989EC6DA13C31C9400B3DD13 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				989EC6DB13C31C9400B3DD13 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		989EC6E013C31C9400B3DD13 /* QuartzPatternsViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				989EC6E113C31C9400B3DD13 /* en */,
+			);
+			name = QuartzPatternsViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		989EC6E313C31C9400B3DD13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		989EC6E413C31C9400B3DD13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		989EC6E613C31C9400B3DD13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuartzPatterns/QuartzPatterns-Prefix.pch";
+				INFOPLIST_FILE = "QuartzPatterns/QuartzPatterns-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		989EC6E713C31C9400B3DD13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "QuartzPatterns/QuartzPatterns-Prefix.pch";
+				INFOPLIST_FILE = "QuartzPatterns/QuartzPatterns-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		989EC6BE13C31C9300B3DD13 /* Build configuration list for PBXProject "QuartzPatterns" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				989EC6E313C31C9400B3DD13 /* Debug */,
+				989EC6E413C31C9400B3DD13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		989EC6E513C31C9400B3DD13 /* Build configuration list for PBXNativeTarget "QuartzPatterns" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				989EC6E613C31C9400B3DD13 /* Debug */,
+				989EC6E713C31C9400B3DD13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 989EC6BB13C31C9300B3DD13 /* Project object */;
+}
